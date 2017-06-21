@@ -17,13 +17,23 @@ header .nav-right {
     header .nav-right li .don {
       border: 2px solid #fd6205;
       padding: 10px 20px;
-      color: #fd6205;
+      color: white;
+      background-color: #fd6205;
       border-radius: 5px;
       font-weight: 600; }
       header .nav-right li .don:hover {
-        background-color: #fd6205;
         color: white; }
 
+.carousel .carousel-inner .item .a-propos {
+  border: 2px solid #fd6205;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #fd6205; }
+  .carousel .carousel-inner .item .a-propos:hover {
+    color: white; }
 .carousel .carousel-inner .item img {
   height: 500px;
   width: 100%; }
