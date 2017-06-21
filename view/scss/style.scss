@@ -1,0 +1,76 @@
+// code couleur
+$white:white;
+$green:#0ab259;
+$grey:#5b5b5b;
+$orange:#fd6205;
+header {
+  .my-nav {
+    background-color:$white;
+    padding: 10px;
+    margin: 0;
+  }
+  .nav-right {
+    float: right;
+    display: flex;
+    li {
+      list-style: none;
+      padding-right: 10px;
+      padding-top: 10px;
+      a {
+        color: $grey;
+        &:hover {
+          color: $green;
+          text-decoration: none;
+        }
+      }
+      .don {
+        border: 1px solid $green;
+        padding: 10px 20px;
+        color: $green;
+        border-radius: 5px;
+        &:hover {
+          background-color: $green;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+.carousel {
+  .carousel-inner {
+    .item {
+      img {
+        height: 500px;
+        width: 100%;
+      }
+    }
+  }
+}
+.action {
+  h2 {
+    text-align: center;
+  }
+  text-align: center;
+  img {
+    margin: 10px;
+  }
+}
+footer {
+  background-color: #fd6205;
+  height: 100px;
+  text-align: center;
+  p {
+    color: $white;
+    font-size: 9px;
+  }
+  .social-media {
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    a {
+      color: white;
+      padding-left: 20px;
+    }
+  }
+}

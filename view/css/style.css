@@ -1,0 +1,53 @@
+header .my-nav {
+  background-color: white;
+  padding: 10px;
+  margin: 0; }
+header .nav-right {
+  float: right;
+  display: flex; }
+  header .nav-right li {
+    list-style: none;
+    padding-right: 10px;
+    padding-top: 10px; }
+    header .nav-right li a {
+      color: #5b5b5b; }
+      header .nav-right li a:hover {
+        color: #0ab259;
+        text-decoration: none; }
+    header .nav-right li .don {
+      border: 1px solid #0ab259;
+      padding: 10px 20px;
+      color: #0ab259;
+      border-radius: 5px; }
+      header .nav-right li .don:hover {
+        background-color: #0ab259;
+        color: white; }
+
+.carousel .carousel-inner .item img {
+  height: 500px;
+  width: 100%; }
+
+.action {
+  text-align: center; }
+  .action h2 {
+    text-align: center; }
+  .action img {
+    margin: 10px; }
+
+footer {
+  background-color: #fd6205;
+  height: 100px;
+  text-align: center; }
+  footer p {
+    color: white;
+    font-size: 9px; }
+  footer .social-media {
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    footer .social-media a {
+      color: white;
+      padding-left: 20px; }
+
+/*# sourceMappingURL=style.css.map */
