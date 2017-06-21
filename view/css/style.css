@@ -15,12 +15,13 @@ header .nav-right {
         color: #0ab259;
         text-decoration: none; }
     header .nav-right li .don {
-      border: 1px solid #0ab259;
+      border: 2px solid #fd6205;
       padding: 10px 20px;
-      color: #0ab259;
-      border-radius: 5px; }
+      color: #fd6205;
+      border-radius: 5px;
+      font-weight: 600; }
       header .nav-right li .don:hover {
-        background-color: #0ab259;
+        background-color: #fd6205;
         color: white; }
 
 .carousel .carousel-inner .item img {

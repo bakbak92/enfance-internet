@@ -24,12 +24,13 @@ header {
         }
       }
       .don {
-        border: 1px solid $green;
+        border: 2px solid $orange;
         padding: 10px 20px;
-        color: $green;
+        color: $orange;
         border-radius: 5px;
+        font-weight: 600;
         &:hover {
-          background-color: $green;
+          background-color: $orange;
           color: $white;
         }
       }
